@@ -1,0 +1,32 @@
+*{
+ margin:0;
+}
+body{
+    background-color: blanchedalmond;
+}
+div{
+    background-color: black;
+    text-align:left;
+}
+ul{
+    list-style-type:none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px
+}
+ul li:hover{
+    color: black;
+    transform: scale(1.0);
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+ul li a:hover{
+    background-color:blanchedalmond;
+    color: black;
+    transition: 1s all;
+}
