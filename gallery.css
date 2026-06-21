@@ -1,0 +1,61 @@
+*{
+    
+}
+body{
+    background-color: black;
+}
+div{
+    text-align: center;
+}
+h1{
+    color: cyan;
+    letter-spacing: 4px;
+}
+ul li{
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+}
+ul li:hover{
+    transform: scale(1.1);
+}
+ul li a{
+    text-decoration: none;
+    color: beige;
+}
+ul li a:hover{
+    background-color: azure;
+    color: black;
+    transition: 1s all;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+    justify-content: center;
+}
+.grid-container img{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.grid-container img:hover{
+    transform: scale(1.1);
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.grid-container2 img{
+    height: 400px ;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px;
+}
+.grid-container2 img:hover{
+    transform: scale(1.1);
+}
+
+
