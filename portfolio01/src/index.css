@@ -1,0 +1,93 @@
+.content{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover{
+    color: #10c9c6 !important;
+}
+.about{
+    align-items: center;
+    background-color: black;
+    height: 650px;
+}
+.img1{
+    border-radius: 40px;
+    width: auto;
+    height: 500px;
+}
+.img1:hover{
+    box-shadow: 10 10 inset plum;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+    font-size:20px ;
+
+
+}
+ul li a:hover{
+    color:0 0  #10c9c6 !important;
+}
+.font{
+    padding-top: 10px;
+
+    margin-left: 40px;
+}
+.navbar-brand{
+    width: 400px;
+}
+.skills-container{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 50vh !important;
+}
+.nav-link.active{
+    color: #10c9c6 !important;
+}
+body{
+    background-color: black !important;
+}
+.card{
+    background-color: black !important;
+    /* box-shadow: 0 0 20px #10c9c6 !important; */
+}
+.card:hover{
+    box-shadow: 0 0 20px #10c9c6 !important;
+}
+.card1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.card-text{
+    color: white;
+}
+.main-card{
+   margin: 20px; 
+}
+.card{
+    border: 1px inset #10c9c6 !important;
+}
+.card img{
+    padding-top: 20px !important;
+}
+
+.card:hover{
+   box-shadow: 0 10px 30px rgba(20, 167, 147) !important;
+   transform: scale(1.1) !important;
+}
+.cards{
+    gap:80px !important;
+    flex-wrap: wrap !important;
+}
+.pro-card{
+    margin: 20px;
+}
